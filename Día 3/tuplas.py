@@ -9,8 +9,3 @@ t = (1,2,3)
 
 x,y,z = t
 print(x,y,z)
-
-list = [1,10,100]
-
-a,b,c = list
-print(a,b,c)

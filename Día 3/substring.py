@@ -17,3 +17,6 @@ frase2 = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
 fragmento2 = frase2[::-1]# Dándole un valor negativo, se invierte la cadena de caracteres 
 print(fragmento2)
 
+redes = ["YouTube", "Facebook", "Twitter", "Whatsapp"]
+redes.sort()
+print(redes)
