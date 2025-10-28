@@ -48,7 +48,7 @@ def todos_positivos(lista):
     
     return True
         
-# lista_numeros = [-8, 10, 15, -18, 23, -4, -1]
+
         
 resultado = todos_positivos([10,19,12])
 print(resultado)

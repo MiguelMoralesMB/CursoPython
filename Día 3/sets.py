@@ -1,6 +1,8 @@
 mi_set = set({1,2,3,4,5})# los sets son inmutables
 #Listas y diccionario no se pueden juntar con los sets, pero las tuplas si pueden
-print(3 in mi_set)
+# print(3 in mi_set)
+mi_set2 = {1,2,3,4,3}
+print(mi_set2)
 
 s1 = {1,2,3}
 s2 = {3,4,5}

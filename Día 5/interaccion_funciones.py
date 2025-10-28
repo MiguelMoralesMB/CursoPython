@@ -80,36 +80,3 @@ def evaluar_jugada(dado_1, dado_2):
     else:
         return f"La suma de tus dados es {suma_dados}. Parece una jugada ganadora"
     
-# Ejercicio 2
-
-'''
-Crea una función llamada reducir_lista() que tome una 
-lista como argumento (crea también la variable lista_numeros), 
-y devuelva la misma lista, pero eliminando duplicados 
-(dejando uno solo de los números si hay repetidos)
-y eliminando el valor más alto.
-El orden de los elementos puede modificarse.
-
-    "Por ejemplo, si se le proporciona la lista [1,2,15,7,2]
-    debe devolver [1,2,7]."
-
-Crea una función llamada promedio() que pueda recibir 
-como argumento la lista devuelta por la anterior función,
-y que calcule el promedio de los valores de la misma.
-Debe devolver el resultado, sin imprimirlo.
-'''
-
-#Función de reducir_lista()
-lista_numeros = [9,2,7,4,7,5,2]
-print(len(lista_numeros))
-
-def reducir_lista(lista):
-    """Devuelve la misma lista, eliminando los duplicados
-    y eliminando el valor mas alto"""
-    for n in lista:
-        if n in lista[0] == max(lista):
-            lista.pop
-
-    
-    
-    
