@@ -1,5 +1,5 @@
 mi_archivo = open('prueba.txt')
-wprint(mi_archivo.read()) #read() lee todo el contenido
+print(mi_archivo.read()) #read() lee todo el contenido
 
 # mi_archivo.readline() readline() lee la primera linea del archivo
 # mi_archivo.readlines() readlines() imprime cada linea en una lista
