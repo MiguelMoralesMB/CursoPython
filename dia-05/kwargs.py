@@ -21,7 +21,7 @@ print(suma(x=3, z=2, y=1))
 def prueba_args(num1, num2, *args, **kwargs):
     
     print(f"El primer valor es {num1}")
-    print(f"El primer valor es {num2}")
+    print(f"El segundo valor es {num2}")
     
     for arg in args:
         print(f"arg = {arg}")

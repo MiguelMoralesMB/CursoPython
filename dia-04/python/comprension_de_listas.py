@@ -11,6 +11,7 @@ print(lista, '\n')
 #Esta sería una forma mejor.
 
 lista_mejorada = [ letra for letra in 'python']
+print(lista_mejorada)
 print(type(lista_mejorada))
 
 #Con valores numéricos 
@@ -43,3 +44,8 @@ print(valores_pares)
 temperatura_fahrenheit = [32, 212, 275]
 grados_celsius = [(temp -32)* (5/9) for temp in temperatura_fahrenheit ]
 print(grados_celsius)
+
+comunas = ["Quilicura", "Las Condes", "La Pintana", "El Bosque", "Santiago", "San Miguel"]
+poblacion = [122, 222, 290, 309, 145, 559]
+listado_comunas = [comuna for comuna in comunas]
+print(listado_comunas)

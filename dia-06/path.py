@@ -5,17 +5,15 @@ guia = Path(base, "Barcelona", "Sagrada_Familia.txt")
 print(guia, "\n")
 guia = Path(base,"Europa" , "España", Path("Barcelona", "Sagrada_Familia.txt"))
 print(guia, "\n")
-guia2 = guia.with_name("La_Pedrera.txt")
-print(guia2, "\n")
+# guia2 = guia.with_name("La_Pedrera.txt")
+# print(guia2, "\n")
 
 
 guia = Path(Path.home(), "Europa")
 print(guia)
 
-# for txt in Path(guia).glob("**/*.txt"):
-#     print(txt)
-
-
+for txt in Path(guia).glob("**/*.txt"):
+    print(txt)
 
 
 

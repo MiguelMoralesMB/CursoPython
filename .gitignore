@@ -1,0 +1,23 @@
+# Ignorar configuraciones de editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignorar archivos compilados de Python (se generan automáticamente)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar entornos virtuales (si llegas a usar uno más adelante)
+venv/
+env/
+.env/
+
+# Ignorar archivos de variables de entorno (AQUÍ va la seguridad de credenciales)
+.env
+
+# (Opcional) Ignorar archivos de texto temporales de prueba
+# prueba*.txt
